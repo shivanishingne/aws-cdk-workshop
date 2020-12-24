@@ -50,8 +50,26 @@ npm run watch
 ..tells the toolkit how to run your app.
 
 > tsconfig.json
-
 .. is your project’s typescript configuration.
+
 ---
+#### Synthesize a template
+```
+cdk synth
+```
+#### Bootstrap stack
+```
+cdk bootstrap
+```
+#### cdk app deploying
+```
+cdk deploy
+```
+---
+#### cdk diff
+- we can ask the toolkit to show us the difference between our cdk app and what's currently deployed
+```
+cdk diff
+```
 
-
+---
