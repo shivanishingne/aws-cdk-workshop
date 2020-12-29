@@ -65,6 +65,7 @@ cdk bootstrap
 ```
 cdk deploy
 ```
+  - Note: if TTY is not enabled, use the command `cdk deploy --require-approval never` This works because the subcommand parameter is not quoted in the entrypoint script so the shell will split it on spaces. 
 ---
 #### cdk diff
 - we can ask the toolkit to show us the difference between our cdk app and what's currently deployed
